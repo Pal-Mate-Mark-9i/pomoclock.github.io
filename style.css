@@ -20,3 +20,9 @@ body,html {
     display: block;
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    #timer {
+        font-size: 150px;
+    }
+}
