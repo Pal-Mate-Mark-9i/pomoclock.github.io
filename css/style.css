@@ -1,0 +1,50 @@
+body,html {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(19, 51, 92);
+    color: rgb(221, 221, 221);
+    font-family: "Ubuntu";
+}
+
+.timer {
+    font-size: 150px;
+}
+
+.startButton {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+    .timer {
+        font-size: 200px;
+    }
+    .startButton {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .timer {
+        font-size: 300px;
+    }
+    .startButton {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .timer {
+        font-size: 600px;
+    }
+    .startButton {
+        font-size: 32px;
+    }
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/font/Ubuntu-Light.ttf");
+}
